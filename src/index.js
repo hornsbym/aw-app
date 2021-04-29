@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './fonts/Brandon Grot W01 Light/Brandon Grot W01 Light.ttf'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

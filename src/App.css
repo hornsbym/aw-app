@@ -1,4 +1,51 @@
+@font-face {
+  font-family: 'Brandon Grot W01 Light';
+  src: local('Brandon Grot W01 Light'), url('./fonts/Brandon Grot W01 Light/Brandon Grot W01 Light.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: Brandon Grot W01 Light, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.grid, .row, .col {
+    padding:0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
 .col-lg-auto {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.greenWithWhiteText {
+    background: rgb(29,131,105);
+    color: rgb(255,255,255);
+}
+
+.greenText {
+    color: rgb(29,131,105);
+}
+
+a:hover {
+    color:orange;
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+.whiteLink {
+    color: white;
+    text-decoration: underline;
 }

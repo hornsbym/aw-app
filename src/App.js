@@ -14,7 +14,7 @@ function App() {
           <Col className="pl-lg-5 pr-lg-5 pl-4 pr-4 text-center">
             <h1 className="greenText mt-lg-4 mb-lg-4 mt-2">Amanda Wahlers</h1>
             <h3 className="greenText mb-lg-3">PhD student in Economics at Stanford University</h3>
-            <p>
+            <p id="introParagraph" className="text-left">
               My research interests include topics in public economics, with a particular interest in topics relating to education, inequality, and environmental economics. I previously worked as a pre-doctoral fellow at Harvard's Opportunity Insights. I received my undergraduate degree from Washington and Lee University, where I majored in economics and minored in mathematics.
             </p>
             <p>

@@ -4,10 +4,15 @@
 }
 
 body {
+  background-color: #40513B;
   margin: 0;
   font-family: Brandon Grot W01 Light, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.mainContent {
+    box-shadow: 5px 5px 15px black;
 }
 
 h1 {
@@ -34,6 +39,10 @@ p, a {
     margin: 0;
 }
 
+.whiteSection {
+    background-color: white;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -48,16 +57,20 @@ ul {
 }
 
 .greenWithWhiteText {
-    background: rgb(29,131,105);
+    background: #9DC08B;
     color: rgb(255,255,255);
 }
 
 .greenText {
-    color: rgb(29,131,105);
+    color: #609966;
+}
+
+.darkGreenText {
+    color: #40513B;
 }
 
 a:hover {
-    color:orange;
+    color:#c47f00;
 }
 
 li {
@@ -66,10 +79,26 @@ li {
 
 .whiteLink {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-#introParagraph {
+.whiteText {
+    color: white;
+}
+
+.xPadding 
+{
     padding-left:2rem;
     padding-right: 2rem;
+}
+
+.yPadding 
+{
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+
+.smallFont
+{
+    font-size: 1.25rem;
 }
